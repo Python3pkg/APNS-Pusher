@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51B62C219F4C59685DE8F03CD1341FE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC357A00B468B4A028438FEB9C73B9B /* Cocoa.framework */; };
 		006A2B9E6A7FE34C483DC1DEF8E6E123 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2F01000BCB88938278FB807A881274AE /* Credits.rtf */; };
+		08C523FF53619A5242E01B6E8F0D3769 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 950FE60DAD0AAF0B0DD990B6644D528A /* libPods.a */; };
+		0D8523A8F373C40BD9FF01446A19D339 /* SBNetServiceSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE632EB9E5940D7993D9C418FE847A5 /* SBNetServiceSearcher.m */; };
+		18D14273131A38443DCB64DE058E2643 /* SBIdentityTypeDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E0EC401B5AE724198BC15DD0E2AC0 /* SBIdentityTypeDetection.m */; };
+		4213D3AD8689761D0448B8E570D33924 /* MGSFragaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AFB556C5C68E1D8446649FE286CB5C /* MGSFragaria.framework */; };
+		51B62C219F4C59685DE8F03CD1341FE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC357A00B468B4A028438FEB9C73B9B /* Cocoa.framework */; };
+		65E2769A3C499CA558F0A7B0EAC1DC2A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69B1A6C9806FF89777B76FACAF11E24 /* MainMenu.xib */; };
 		68AB35839A81B89F70BE9EB0E794F603 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44ACEE31C647C0527EF235C2761F8D73 /* InfoPlist.strings */; };
 		844D7BCD6789CD01964F46D3D6F73551 /* MGSFragaria.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6AFB556C5C68E1D8446649FE286CB5C /* MGSFragaria.framework */; };
-		4213D3AD8689761D0448B8E570D33924 /* MGSFragaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AFB556C5C68E1D8446649FE286CB5C /* MGSFragaria.framework */; };
-		65E2769A3C499CA558F0A7B0EAC1DC2A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69B1A6C9806FF89777B76FACAF11E24 /* MainMenu.xib */; };
-		BB3E6A88B51FB0D1CFDB5737597B727E /* SBAPNS.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B3A4F1C387A7460DF24E0D8260144 /* SBAPNS.m */; };
+		8C7BF800004C4589CD7FB444C8142C9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD311885A6F7F4D9C4B2DA695B33DAE /* main.m */; };
 		98A317C42324A9AA0793515F76AE66D0 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE181896636B88D715D365AC54F360A5 /* SBAppDelegate.m */; };
-		18D14273131A38443DCB64DE058E2643 /* SBIdentityTypeDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E0EC401B5AE724198BC15DD0E2AC0 /* SBIdentityTypeDetection.m */; };
-		0D8523A8F373C40BD9FF01446A19D339 /* SBNetServiceSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE632EB9E5940D7993D9C418FE847A5 /* SBNetServiceSearcher.m */; };
+		BB3E6A88B51FB0D1CFDB5737597B727E /* SBAPNS.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B3A4F1C387A7460DF24E0D8260144 /* SBAPNS.m */; };
 		EBD44C1ABF1E931E0E4E762AA746BBD9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B1BF1DE384E9DDB876DDC866493C1A /* Security.framework */; };
 		EE2E481BD5FDFCF8866610FA058A0711 /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC3CB883564C0BDB795E21B3265D511 /* SecurityInterface.framework */; };
-		08C523FF53619A5242E01B6E8F0D3769 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 950FE60DAD0AAF0B0DD990B6644D528A /* libPods.a */; };
-		8C7BF800004C4589CD7FB444C8142C9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD311885A6F7F4D9C4B2DA695B33DAE /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,31 +75,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CB9387C11281469CF09C2A82CAC2B5F9 /* APNS Pusher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNS Pusher-Info.plist"; sourceTree = "<group>"; };
-		B6508DF85F8DAC5717C624DB11DEA12E /* APNS Pusher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APNS Pusher-Prefix.pch"; sourceTree = "<group>"; };
-		80D11834AD4C93D6FBB456149CA11304 /* APNS Pusher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APNS Pusher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AADAF04DADBF623AA8A1BBBA16FF5FC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		EAC357A00B468B4A028438FEB9C73B9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		E765F9F914A34F8764C6CA8D4CB0DC1F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		D80C02C10849EC23E6BABC412A512127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		685BAD895ADEE0BD5CD586F2476CAF02 /* Fragaria.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Fragaria.xcodeproj; sourceTree = "<group>"; };
-		9A1E40C636CE45A608C422C8BD0D8026 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		22852AC674D95955B70C060A2E22305A /* SBAPNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBAPNS.h; sourceTree = "<group>"; };
-		136B3A4F1C387A7460DF24E0D8260144 /* SBAPNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBAPNS.m; sourceTree = "<group>"; };
-		1341C73AE3BC520AF24901AB1D564FB9 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
-		FE181896636B88D715D365AC54F360A5 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
 		028F8A937DFCE384C79EB327F57928BD /* SBIdentityType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBIdentityType.h; sourceTree = "<group>"; };
-		153B6FF19074EF25628B00DD20CEDE8F /* SBIdentityTypeDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBIdentityTypeDetection.h; sourceTree = "<group>"; };
-		AB3E0EC401B5AE724198BC15DD0E2AC0 /* SBIdentityTypeDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBIdentityTypeDetection.m; sourceTree = "<group>"; };
-		862C73B79B95F1359172B826CAD373C6 /* SBNetServiceSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetServiceSearcher.h; sourceTree = "<group>"; };
-		4AE632EB9E5940D7993D9C418FE847A5 /* SBNetServiceSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNetServiceSearcher.m; sourceTree = "<group>"; };
 		04B1BF1DE384E9DDB876DDC866493C1A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		6EC3CB883564C0BDB795E21B3265D511 /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+		1341C73AE3BC520AF24901AB1D564FB9 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		136B3A4F1C387A7460DF24E0D8260144 /* SBAPNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBAPNS.m; sourceTree = "<group>"; };
+		153B6FF19074EF25628B00DD20CEDE8F /* SBIdentityTypeDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBIdentityTypeDetection.h; sourceTree = "<group>"; };
+		22852AC674D95955B70C060A2E22305A /* SBAPNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBAPNS.h; sourceTree = "<group>"; };
+		4AE632EB9E5940D7993D9C418FE847A5 /* SBNetServiceSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNetServiceSearcher.m; sourceTree = "<group>"; };
 		515BC9CEBC45804A8B51D9B3416FED33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		685BAD895ADEE0BD5CD586F2476CAF02 /* Fragaria.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Fragaria.xcodeproj; sourceTree = "<group>"; };
+		6EC3CB883564C0BDB795E21B3265D511 /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
 		7048C9C5ED71004947F8ACD0355A43A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B9E9855EE775AA6857FCBC5840D8B8EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7AADAF04DADBF623AA8A1BBBA16FF5FC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		80D11834AD4C93D6FBB456149CA11304 /* APNS Pusher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APNS Pusher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862C73B79B95F1359172B826CAD373C6 /* SBNetServiceSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetServiceSearcher.h; sourceTree = "<group>"; };
 		950FE60DAD0AAF0B0DD990B6644D528A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1E40C636CE45A608C422C8BD0D8026 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AB3E0EC401B5AE724198BC15DD0E2AC0 /* SBIdentityTypeDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBIdentityTypeDetection.m; sourceTree = "<group>"; };
+		B6508DF85F8DAC5717C624DB11DEA12E /* APNS Pusher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APNS Pusher-Prefix.pch"; sourceTree = "<group>"; };
+		B9E9855EE775AA6857FCBC5840D8B8EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CB9387C11281469CF09C2A82CAC2B5F9 /* APNS Pusher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNS Pusher-Info.plist"; sourceTree = "<group>"; };
+		D80C02C10849EC23E6BABC412A512127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFD311885A6F7F4D9C4B2DA695B33DAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E765F9F914A34F8764C6CA8D4CB0DC1F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EAC357A00B468B4A028438FEB9C73B9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FE181896636B88D715D365AC54F360A5 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
